@@ -1,0 +1,33 @@
+*/
+Aluno:Carlos Eduardo O. da Silva
+JS
+*/
+/*
+(questão 6)
+
+var a = prompt(" digite o valor a: ");
+var b = prompt("digite o valor b: ");
+var aux = a
+var a=b
+var b=aux
+
+console.log (a,b )
+*/
+
+
+/*
+(questão 5)
+
+var salario = prompt("digite seu salario:");
+var vendas = prompt("digite suas vendas efetuadas:");
+var salarioFinal = vendas * 0.15 + salario * 1.0 
+
+console.log ("seu salario incluindo sua taxa de 15% de comissão por venda : R$" + salarioFinal );
+*/
+
+/*
+(questão 4)
+
+var raio = parseFloat( prompt("Raio do circulo: "));
+document.write("Area da circunferencia = ", Math.PI * Math.pow(raio, 2));
+*/
