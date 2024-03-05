@@ -1,0 +1,158 @@
+/*
+Questão 13
+
+function calcularValorTotal(numMacas) {
+    var precoUnitario;
+
+    if (numMacas < 12) {
+        precoUnitario = 0.30;
+    } else {
+        precoUnitario = 0.25;
+    }
+
+    var valorTotal = numMacas * precoUnitario;
+
+    return valorTotal;
+}
+
+var numMacas = prompt("Digite o número de maçãs compradas:");
+
+numMacas = parseInt(numMacas);
+
+var valorTotalCompra = calcularValorTotal(numMacas);
+console.log("O valor total da compra é: R$" + valorTotalCompra.toFixed(2));
+*/
+
+/*
+Questão 12
+
+var numero1 = prompt("Digite o primeiro número:");
+var numero2 = prompt("Digite o segundo número:");
+
+numero1 = parseFloat(numero1);
+numero2 = parseFloat(numero2);
+
+function compararNumeros(numero1, numero2) {
+    if (numero1 === numero2) {
+        return "Os números são iguais.";
+    } else {
+        var maiorNumero = (numero1 > numero2) ? numero1 : numero2;
+        var mensagem = "Os números são diferentes. O maior número é: " + maiorNumero;
+        return mensagem;
+    }
+}
+if (isNaN(numero1) || isNaN(numero2)) {
+    console.log("Por favor, insira números válidos.");
+} else {
+    
+    var resultado = compararNumeros(numero1, numero2);
+    console.log(resultado);
+}
+*/
+
+/*
+Questão 11
+
+var valor = prompt("Digite um valor inteiro:"); 
+valor = parseInt(valor);
+
+var resultado = verificarPositivoOuNegativo(valor);
+console.log(resultado);
+
+function verificarPositivoOuNegativo(numero) {
+    if (numero >= 0) {
+        return "O valor digitado é: " + numero;
+    } else {
+        var valorInvertido = -numero;
+        return "O valor digitado com o sinal invertido é: " + valorInvertido;
+    }
+}
+*/
+/*
+Questão 10
+
+var n = prompt("Digite um numero : ");
+var total=n/2;
+if(n%2 == 0){
+	alert("Par");
+}else{
+	alert("Impar");
+}
+alert(total);
+*/
+
+/*
+Questão 9
+
+var valor = prompt("Digite um valor inteiro:");
+valor = parseInt(valor);
+
+var resultado = verificarValor(valor);
+console.log(resultado);
+
+function verificarValor(numero) {
+    if (numero === 0) {
+        return "O valor é zero.";
+    } else if (numero > 0) {
+        return "O valor é positivo.";
+    } else {
+        return "O valor é negativo.";
+    }
+}
+*/
+/*
+Questão 8
+
+
+function calcularPrecoFinal(precoFabrica) {
+    
+    var valorImpostos = 0.45 * precoFabrica;
+
+    var valorRevendedor = 0.28 * precoFabrica;
+
+    var precoFinal = precoFabrica + valorImpostos + valorRevendedor;
+
+    return precoFinal;
+}
+
+var precoFabrica = prompt("Digite o preço de fábrica do automóvel:");
+
+precoFabrica = parseFloat(precoFabrica);
+
+if (isNaN(precoFabrica) || precoFabrica < 0) {
+    console.log("Por favor, insira um preço de fábrica válido.");
+} else {
+    var precoFinal = calcularPrecoFinal(precoFabrica);
+    console.log("O preço final do carro é: $" + precoFinal.toFixed(2));
+}
+
+*/
+/*
+Questão 7
+
+function calcularMedia(numeros) {
+    var soma = 0;
+
+    for (var i = 0; i < numeros.length; i++) {
+        soma += numeros[i];
+    }
+
+    return soma / numeros.length;
+}
+
+var conjunto1 = [7, 8, 9];
+var conjunto2 = [4, 5, 6];
+
+var mediaConjunto1 = calcularMedia(conjunto1);
+var mediaConjunto2 = calcularMedia(conjunto2);
+
+var somaDasMedias = mediaConjunto1 + mediaConjunto2;
+
+var mediaDasMedias = (mediaConjunto1 + mediaConjunto2) / 2;
+
+console.log("Média do conjunto 1: " + mediaConjunto1);
+console.log("Média do conjunto 2: " + mediaConjunto2);
+console.log("Soma das médias: " + somaDasMedias);
+console.log("Média das médias: " + mediaDasMedias);
+*/
+
